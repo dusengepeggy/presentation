@@ -7,8 +7,7 @@ const student={
 };
 const searchKey=(key)=>{
     if (student.hasOwnProperty(key)===true) {
-        return "key found\n";
-        
+        return student[key];
     } else {
         return "No such key";
     }
