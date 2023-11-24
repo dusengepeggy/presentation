@@ -18,5 +18,5 @@ const convert=(amount,currency)=>{
 
 }
 
-console.log(convert(100 ,'frw'));
 console.log(convert(100000 ,'frw'));
+console.log(convert(100000 ,'$'));
